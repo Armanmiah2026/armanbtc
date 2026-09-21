@@ -1,10 +1,24 @@
-[
-  {
-    "id": 1,
-    "name": "Premium Server 1",
-    "country": "Armenia",
-    "flagUrl": "https://raw.githubusercontent.com/Armanmiah2026/servers.json/main/flags/am.png",
-    "ovpnUrl": "https://raw.githubusercontent.com/Armanmiah2026/servers.json/main/ovpn/japan.ovpn",
-    "protocol": "OVPN3"
-  }
-]
+{
+  "servers": [
+    {
+      "name": "Singapore Premium 01",
+      "flag": "🇸🇬",
+      "ovpn_url": "https://raw.githubusercontent.com/username/repo/main/sg.ovpn"
+    },
+    {
+      "name": "Japan High Speed 02",
+      "flag": "🇯🇵",
+      "ovpn_url": "https://raw.githubusercontent.com/username/repo/main/japan.ovpn"
+    }
+  ],
+  "payloads": [
+    {
+      "name": "🇸🇦 ZAIN | 60 RIYAL PACK-01 🔰",
+      "payload_data": "GET / HTTP/1.1[crlf]Host: example.com..."
+    },
+    {
+      "name": "🇸🇦 STC | FREE UNLIMITED PACK 🔰",
+      "payload_data": "CONNECT [host_port] HTTP/1.1..."
+    }
+  ]
+}
