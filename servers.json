@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "Premium Server 1",
+    "country": "Armenia",
+    "flagUrl": "https://raw.githubusercontent.com/Armanmiah2026/servers.json/main/flags/am.png",
+    "ovpnUrl": "https://raw.githubusercontent.com/Armanmiah2026/servers.json/main/ovpn/japan.ovpn",
+    "protocol": "OVPN3"
+  }
+]
